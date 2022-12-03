@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# The Dog App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Home Screen
 
-## Available Scripts
+#### Here all the different types of breeds are listed with the Search Bar and Login Button.
 
-In the project directory, you can run:
+![Screenshot (89)](https://user-images.githubusercontent.com/100989693/205436289-b2570a9b-a27d-4387-95b2-4acb7a9cdb7a.png)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Searching Functionality
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### When you type something to search, it will a generate a query on it and on the basis of it fetch data and render it.
 
-### `npm test`
+![Screenshot (93)](https://user-images.githubusercontent.com/100989693/205436326-f16b3d6a-b706-4eb4-a38c-d127d39ff86e.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+### Dog and Breed Details Page
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### When you click on any of the Card from the list, you will be redirected to the details page about that breed and the dog.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Screenshot (88)](https://user-images.githubusercontent.com/100989693/205436496-21a43468-3c6f-49bb-bc29-000b1b18d16e.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+### Login Screen
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### I have implemented authentication using Auth0 using Login/Register Page due to time constraint. One can implemented by different ways using JWT, Firebase Auth, Next Auth, and Custom Auth using MERN. If a user is authenticated and logged(email id) in, his/her name will be displayed on the screen with the log out button.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Screenshot (95)](https://user-images.githubusercontent.com/100989693/205436659-15ca7e47-6773-4a31-831c-417146e99ec1.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
