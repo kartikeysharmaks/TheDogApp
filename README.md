@@ -26,7 +26,7 @@
 
 ### Login Screen
 
-#### I have implemented authentication using Auth0 using Login/Register Page due to time constraint. One can implemented by different ways using JWT, Firebase Auth, Next Auth, and Custom Auth using MERN. If a user is authenticated and logged(email id) in, his/her name will be displayed on the screen with the log out button.
+#### I have implemented authentication using Auth0 using Login/Register Page due to time constraint. One can implemented by different ways using JWT, Firebase Auth, Next Auth, and Custom Auth using MERN. If a user is authenticated and logged in, his/her name(email id) will be displayed on the screen with the log out button.
 
 ![Screenshot (95)](https://user-images.githubusercontent.com/100989693/205436659-15ca7e47-6773-4a31-831c-417146e99ec1.png)
 
